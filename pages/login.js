@@ -47,6 +47,7 @@ function Login () {
                         value={nickname} 
                         onChange={onChangeNickName}
                         placeholder="닉네임"
+                        required
                     />
                 </div>
                 <div className="input_wrap">
@@ -56,6 +57,7 @@ function Login () {
                         value={password} 
                         onChange={onChangePassword}
                         placeholder="비밀번호"
+                        required
                     />
                 </div>        
                 <div>
